@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+h1{
+    font-family: cursive;
+    background-color: rgb(0, 154, 193);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+main{
+    background-color: rgba(0, 94, 255, 0.667);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(0, 145, 255);
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    top: 40px;
+    color: white;
+}
+a:hover{
+    transition: 1s linear;
+    box-shadow: 13px 13px 13px 13px aqua;
+}
+img{
+    width: 550px;
+    height: 290px;
+    border-radius: 20px;
+}
+h1:hover{
+    transition: 1s linear;
+    background-color: rgb(0, 89, 255);
+}
+img:hover{
+    transition: 1s linear;
+    border:4px dotted navy;
+    width: 600px;
+    height: 330px;
+}
+
